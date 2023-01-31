@@ -12,7 +12,14 @@ Star-Job is a job site where you can find or post a job, Explore a range of care
  * Laravel
 
 ## Feutures
-* Register user & login
+* Register & login user
 * Post job
 * Edit & Delete your job listings
-* more
+* filter posted job
+
+## Install
+* fork or clone a project
+* run composer update
+* update your database name inside .env file
+* run php artisan migrate & php artisan db:seed or php artisan migrate:fresh --seed. to seed your database with fake data.
+* and the app is ready to test it.
